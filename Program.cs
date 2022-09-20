@@ -166,7 +166,6 @@ namespace _Dictionary
             {
                 throw new ArgumentOutOfRangeException();
             }
-
             if (array.Length - index < Count)
             {
                 throw new ArgumentException();
